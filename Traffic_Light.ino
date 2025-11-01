@@ -15,15 +15,15 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(LED_Green, HIGH);//Green light is on
-  delay(5000);//Green light is on for 700 ms
+  delay(5000);//Green light is on for 5000 ms
   digitalWrite(LED_Green,LOW);//Green is off
   
   digitalWrite(LED_Yellow, HIGH);//Yellow light is on 
-  delay(3500);//Yellow light is on for 450 ms
+  delay(3500);//Yellow light is on for 3500 ms
   digitalWrite(LED_Yellow,LOW);// Yellow light is off
   
   digitalWrite(LED_Red, HIGH);
-  delay(7500);//Red light is on for 700 ms
+  delay(7500);//Red light is on for 7500 ms
   digitalWrite(LED_Red,LOW);//Red light is off
   
 }
